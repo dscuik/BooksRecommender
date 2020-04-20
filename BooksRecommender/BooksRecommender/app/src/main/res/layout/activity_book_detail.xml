@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dz.souhilazidane.booksrecommender.BookDetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar_main"
+            android:id="@+id/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:id="@+id/info_image"
+                android:src="@drawable/ic_book"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="7dp"
+                    android:id="@+id/info_text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/info_text2"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="Global Rating:"/>
+
+                <RatingBar
+                    android:id="@+id/gl_rating_bar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_marginLeft="4dp"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:isIndicator="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="My Rating:"/>
+
+                <RatingBar
+                    android:id="@+id/my_rating_bar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_marginLeft="4dp"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:isIndicator="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="DONE"
+                    android:onClick="onRate"
+                    style="?android:attr/buttonStyleSmall"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/description"/>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_margin="10dp"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+</ScrollView>

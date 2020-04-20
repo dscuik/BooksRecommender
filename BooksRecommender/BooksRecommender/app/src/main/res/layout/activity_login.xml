@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="dz.souhilazidane.booksrecommender.LoginActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageViewIdHomeLg" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageViewIdHomeLg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="@string/prompt_username"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:shadowColor="#000"
+        android:paddingLeft="40dp"
+        android:textSize="17dp"
+        android:backgroundTint="#fff"
+        android:id="@+id/username" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:id="@+id/username1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_alignTop="@+id/username1"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#000"
+        android:textColorHint="#fff"
+        android:paddingLeft="40dp"
+        android:hint="@string/prompt_password"
+        android:textSize="17dp"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:id="@+id/password" />
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/password"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/password" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="50dp"
+        android:text="@string/action_log_in"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignTop="@+id/LoginIdLg"
+        android:text="@string/action_sign_up"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignTop="@+id/LoginIdLg"
+        android:src="@drawable/rect"
+        android:onClick="onSigup" />
+
+    <ImageView
+        android:id="@+id/LoginIdLg"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/rect"
+        android:onClick="onLogin" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I forgot my password ?"
+        android:textSize="18dp"
+        android:layout_below="@+id/password"
+        android:textColor="#fff"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginTop="8dp"
+        android:id="@+id/forgotpassword"
+        android:onClick="onForget"
+        android:gravity="center"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotpassword"
+        android:layout_alignEnd="@+id/username"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignRight="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progress" />
+
+</RelativeLayout>
