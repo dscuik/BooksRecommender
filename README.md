@@ -20,11 +20,11 @@ So the objectif is to provide a recommender system to our university's students 
 | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/home.PNG ) | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/signIn.PNG ) |
 
 | home | List Of recommendations | No recommendations
-| ------------- |:-------------:|
+| ------------- |:-------------:| :-------------:|
 | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/home1.PNG ) | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/books.PNG ) | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/books2.PNG) |
 
 | List of books | Book details | Search book
-| ------------- |:-------------:|
+| ------------- |:-------------:| :-------------:|
 | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/books3.PNG ) | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/booksInfos.PNG ) | ![alt text](https://github.com/dscuik/BooksRecommender/blob/master/Screenshots/searchBook.PNG) |
 
 
