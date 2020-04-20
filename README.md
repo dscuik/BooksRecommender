@@ -1,4 +1,4 @@
-# BooksRecommender
+# **Vivliothiki** Books Recommender
 ## Why BooksRecommeder ❓ 🤷‍♀
 
 In our department's library the problem is that students do not know what books are available in the library, nor the best books they need, so it's became difficult to choose the right book.
