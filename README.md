@@ -6,12 +6,12 @@ So the objectif is to provide a recommender system to our university's students 
 
 ##Requirements 📃
 
-*First of all the users will have to authenticate to his account to access the application. 🏤
-*Consulting the recommended books. 📚
-*Consulting the list of books in the library with the image, title and rating of each book. 📕 ⭐️
-*Search for a book by title or keyword. 🔎
-*Evaluate a book in case the book has already been read by the student.❤️ 
-*Modify their profile information (password, year...). 🔧
+* First of all the users will have to authenticate to his account to access the application. 🏤
+* Consulting the recommended books. 📚
+* Consulting the list of books in the library with the image, title and rating of each book. 📕 ⭐️
+* Search for a book by title or keyword. 🔎
+* Evaluate a book in case the book has already been read by the student.❤️ 
+* Modify their profile information (password, year...). 🔧
 
 ## Screenshots 📷
 
@@ -19,12 +19,12 @@ So the objectif is to provide a recommender system to our university's students 
 
 ###Langages
 
-*Java
-*XML
-*PhP
-*SQL
-*JSON
+* Java
+* XML
+* PhP
+* SQL
+* JSON
 ###IDE & Server
 
-*Android Studio
-*Xampp
+* Android Studio
+* Xampp
