@@ -48,3 +48,5 @@ In this project we used the *Hybride Recommendations* between : *Item based* & *
 
 * Android Studio
 * Xampp
+
+ 	❗ **PS** : The books used in this app are not the real ones of our university, we used only a dataset because we don't have the real data.
