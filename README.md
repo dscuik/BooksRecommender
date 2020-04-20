@@ -13,6 +13,11 @@ So the objectif is to provide a recommender system to our university's students 
 * Evaluate a book in case the book has already been read by the student.❤️ 
 * Modify their profile information (password, year...). 🔧
 
+## Technology Used
+
+In this project we used the *Hybride Recommendations* between : *Item based* & *users based* collaborative systems
+
+
 ## Screenshots 📷
 
 | Login | Sign Up |
