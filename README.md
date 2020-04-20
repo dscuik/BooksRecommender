@@ -4,7 +4,7 @@
 In our department's library the problem is that students do not know what books are available in the library, nor the best books they need, so it's became difficult to choose the right book.
 So the objectif is to provide a recommender system to our university's students and make the process more convivial.
 
-##Requirements 📃
+## Requirements 📃
 
 * First of all the users will have to authenticate to his account to access the application. 🏤
 * Consulting the recommended books. 📚
@@ -17,14 +17,14 @@ So the objectif is to provide a recommender system to our university's students 
 
 ## Tools Used 🔌🔨
 
-###Langages
+### Langages
 
 * Java
 * XML
 * PhP
 * SQL
 * JSON
-###IDE & Server
+### IDE & Server
 
 * Android Studio
 * Xampp
